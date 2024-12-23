@@ -6,7 +6,8 @@ target 'HSS - iPhone' do
   use_frameworks!
 
   # Pods for HSS - iPhone
-
+  pod 'Starscream', '~> 4.0'
+  pod 'GCDWebServer', '~> 3.5'
   target 'HSS - iPhoneTests' do
     inherit! :search_paths
     # Pods for testing

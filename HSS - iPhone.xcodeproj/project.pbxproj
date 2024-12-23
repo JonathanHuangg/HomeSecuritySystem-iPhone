@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		13A95910D7E5AC41B7D6AC52 /* Pods_HSS___iPhoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DFE4742BD43E1222EACAC5 /* Pods_HSS___iPhoneTests.framework */; };
+		32077BBC1ABD3C4F65F78202 /* Pods_HSS___iPhone_HSS___iPhoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D770A59C300D3C7AF36ACE /* Pods_HSS___iPhone_HSS___iPhoneUITests.framework */; };
+		7870EB6D0AC04B54D07FAE02 /* Pods_HSS___iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4722BB28EA97B970C173C648 /* Pods_HSS___iPhone.framework */; };
+		AB853C4A2D18FD88006D8384 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AB853C492D18FD88006D8384 /* Podfile */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AB853C1A2D18F2B9006D8384 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,37 +31,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08C8344A98012BF7AB4A5BC9 /* Pods-HSS - iPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSS - iPhone.release.xcconfig"; path = "Target Support Files/Pods-HSS - iPhone/Pods-HSS - iPhone.release.xcconfig"; sourceTree = "<group>"; };
+		2D148D9F40992053C177AE7B /* Pods-HSS - iPhone-HSS - iPhoneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSS - iPhone-HSS - iPhoneUITests.debug.xcconfig"; path = "Target Support Files/Pods-HSS - iPhone-HSS - iPhoneUITests/Pods-HSS - iPhone-HSS - iPhoneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CCC709B7B5B2B16C3F52CCF /* Pods-HSS - iPhoneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSS - iPhoneTests.debug.xcconfig"; path = "Target Support Files/Pods-HSS - iPhoneTests/Pods-HSS - iPhoneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4722BB28EA97B970C173C648 /* Pods_HSS___iPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSS___iPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB7A89D09BDB40A7FCC179A /* Pods-HSS - iPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSS - iPhone.debug.xcconfig"; path = "Target Support Files/Pods-HSS - iPhone/Pods-HSS - iPhone.debug.xcconfig"; sourceTree = "<group>"; };
+		88D770A59C300D3C7AF36ACE /* Pods_HSS___iPhone_HSS___iPhoneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSS___iPhone_HSS___iPhoneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DFE4742BD43E1222EACAC5 /* Pods_HSS___iPhoneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSS___iPhoneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC7EF81D0B466254EEA2F0E /* Pods-HSS - iPhoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSS - iPhoneTests.release.xcconfig"; path = "Target Support Files/Pods-HSS - iPhoneTests/Pods-HSS - iPhoneTests.release.xcconfig"; sourceTree = "<group>"; };
 		AB853C092D18F2B6006D8384 /* HSS - iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HSS - iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB853C192D18F2B9006D8384 /* HSS - iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HSS - iPhoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB853C232D18F2B9006D8384 /* HSS - iPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HSS - iPhoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB853C492D18FD88006D8384 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		F6F247EFCD9B070A546405FA /* Pods-HSS - iPhone-HSS - iPhoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSS - iPhone-HSS - iPhoneUITests.release.xcconfig"; path = "Target Support Files/Pods-HSS - iPhone-HSS - iPhoneUITests/Pods-HSS - iPhone-HSS - iPhoneUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		AB853C382D18FA66006D8384 /* Exceptions for "HSS - iPhone" folder in "HSS - iPhone" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"HSS---iPhone-Info.plist",
-			);
-			target = AB853C082D18F2B6006D8384 /* HSS - iPhone */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AB853C0B2D18F2B6006D8384 /* HSS - iPhone */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				AB853C382D18FA66006D8384 /* Exceptions for "HSS - iPhone" folder in "HSS - iPhone" target */,
 			);
 			path = "HSS - iPhone";
 			sourceTree = "<group>";
 		};
 		AB853C1C2D18F2B9006D8384 /* HSS - iPhoneTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "HSS - iPhoneTests";
 			sourceTree = "<group>";
 		};
 		AB853C262D18F2B9006D8384 /* HSS - iPhoneUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "HSS - iPhoneUITests";
 			sourceTree = "<group>";
 		};
@@ -65,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7870EB6D0AC04B54D07FAE02 /* Pods_HSS___iPhone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A95910D7E5AC41B7D6AC52 /* Pods_HSS___iPhoneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +91,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32077BBC1ABD3C4F65F78202 /* Pods_HSS___iPhone_HSS___iPhoneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9309C1760CA59D19098449D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4722BB28EA97B970C173C648 /* Pods_HSS___iPhone.framework */,
+				88D770A59C300D3C7AF36ACE /* Pods_HSS___iPhone_HSS___iPhoneUITests.framework */,
+				97DFE4742BD43E1222EACAC5 /* Pods_HSS___iPhoneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AB853C002D18F2B6006D8384 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +115,9 @@
 				AB853C1C2D18F2B9006D8384 /* HSS - iPhoneTests */,
 				AB853C262D18F2B9006D8384 /* HSS - iPhoneUITests */,
 				AB853C0A2D18F2B6006D8384 /* Products */,
+				AB853C492D18FD88006D8384 /* Podfile */,
+				E63783E8A6025973E5319B3D /* Pods */,
+				9309C1760CA59D19098449D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +131,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E63783E8A6025973E5319B3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DB7A89D09BDB40A7FCC179A /* Pods-HSS - iPhone.debug.xcconfig */,
+				08C8344A98012BF7AB4A5BC9 /* Pods-HSS - iPhone.release.xcconfig */,
+				2D148D9F40992053C177AE7B /* Pods-HSS - iPhone-HSS - iPhoneUITests.debug.xcconfig */,
+				F6F247EFCD9B070A546405FA /* Pods-HSS - iPhone-HSS - iPhoneUITests.release.xcconfig */,
+				3CCC709B7B5B2B16C3F52CCF /* Pods-HSS - iPhoneTests.debug.xcconfig */,
+				AAC7EF81D0B466254EEA2F0E /* Pods-HSS - iPhoneTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB853C2D2D18F2B9006D8384 /* Build configuration list for PBXNativeTarget "HSS - iPhone" */;
 			buildPhases = (
+				1531823BF1970CC6340B1C79 /* [CP] Check Pods Manifest.lock */,
 				AB853C052D18F2B6006D8384 /* Sources */,
 				AB853C062D18F2B6006D8384 /* Frameworks */,
 				AB853C072D18F2B6006D8384 /* Resources */,
+				ED9BEB63591BBE6C5AE53D74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +166,6 @@
 				AB853C0B2D18F2B6006D8384 /* HSS - iPhone */,
 			);
 			name = "HSS - iPhone";
-			packageProductDependencies = (
-			);
 			productName = "HSS - iPhone";
 			productReference = AB853C092D18F2B6006D8384 /* HSS - iPhone.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +174,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB853C302D18F2B9006D8384 /* Build configuration list for PBXNativeTarget "HSS - iPhoneTests" */;
 			buildPhases = (
+				30B7B5125EC93BC08550E5F2 /* [CP] Check Pods Manifest.lock */,
 				AB853C152D18F2B9006D8384 /* Sources */,
 				AB853C162D18F2B9006D8384 /* Frameworks */,
 				AB853C172D18F2B9006D8384 /* Resources */,
@@ -147,8 +188,6 @@
 				AB853C1C2D18F2B9006D8384 /* HSS - iPhoneTests */,
 			);
 			name = "HSS - iPhoneTests";
-			packageProductDependencies = (
-			);
 			productName = "HSS - iPhoneTests";
 			productReference = AB853C192D18F2B9006D8384 /* HSS - iPhoneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB853C332D18F2B9006D8384 /* Build configuration list for PBXNativeTarget "HSS - iPhoneUITests" */;
 			buildPhases = (
+				E08B6E384CB025C0290238FA /* [CP] Check Pods Manifest.lock */,
 				AB853C1F2D18F2B9006D8384 /* Sources */,
 				AB853C202D18F2B9006D8384 /* Frameworks */,
 				AB853C212D18F2B9006D8384 /* Resources */,
+				582E8ADC1A164B7CECFF20F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +211,6 @@
 				AB853C262D18F2B9006D8384 /* HSS - iPhoneUITests */,
 			);
 			name = "HSS - iPhoneUITests";
-			packageProductDependencies = (
-			);
 			productName = "HSS - iPhoneUITests";
 			productReference = AB853C232D18F2B9006D8384 /* HSS - iPhoneUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -225,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB853C4A2D18FD88006D8384 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +283,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1531823BF1970CC6340B1C79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HSS - iPhone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30B7B5125EC93BC08550E5F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HSS - iPhoneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		582E8ADC1A164B7CECFF20F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSS - iPhone-HSS - iPhoneUITests/Pods-HSS - iPhone-HSS - iPhoneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSS - iPhone-HSS - iPhoneUITests/Pods-HSS - iPhone-HSS - iPhoneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HSS - iPhone-HSS - iPhoneUITests/Pods-HSS - iPhone-HSS - iPhoneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E08B6E384CB025C0290238FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HSS - iPhone-HSS - iPhoneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED9BEB63591BBE6C5AE53D74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSS - iPhone/Pods-HSS - iPhone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSS - iPhone/Pods-HSS - iPhone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HSS - iPhone/Pods-HSS - iPhone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB853C052D18F2B6006D8384 /* Sources */ = {
@@ -403,6 +546,7 @@
 		};
 		AB853C2E2D18F2B9006D8384 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB7A89D09BDB40A7FCC179A /* Pods-HSS - iPhone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,6 +579,7 @@
 		};
 		AB853C2F2D18F2B9006D8384 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C8344A98012BF7AB4A5BC9 /* Pods-HSS - iPhone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +612,7 @@
 		};
 		AB853C312D18F2B9006D8384 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCC709B7B5B2B16C3F52CCF /* Pods-HSS - iPhoneTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +632,7 @@
 		};
 		AB853C322D18F2B9006D8384 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC7EF81D0B466254EEA2F0E /* Pods-HSS - iPhoneTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +652,7 @@
 		};
 		AB853C342D18F2B9006D8384 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D148D9F40992053C177AE7B /* Pods-HSS - iPhone-HSS - iPhoneUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -522,6 +670,7 @@
 		};
 		AB853C352D18F2B9006D8384 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F247EFCD9B070A546405FA /* Pods-HSS - iPhone-HSS - iPhoneUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

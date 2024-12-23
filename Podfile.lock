@@ -1,0 +1,22 @@
+PODS:
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - Starscream (4.0.8)
+
+DEPENDENCIES:
+  - GCDWebServer (~> 3.5)
+  - Starscream (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - GCDWebServer
+    - Starscream
+
+SPEC CHECKSUMS:
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
+
+PODFILE CHECKSUM: 33a7aaff7042cf60de8a9abc6256c3e42b61f460
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,1507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A5BC0CE18D175AAAB37231C2D00176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE600BF3A9006548A678BA55CD2B374D /* Foundation.framework */; };
+		04C78906EBDD2817A892E193D8377F68 /* Pods-HSS - iPhoneTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF80B2F7805500EE8B701A13AC34BA3 /* Pods-HSS - iPhoneTests-dummy.m */; };
+		05A8110E2B254083460DD5C669C454DA /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BD793065E97DE2EB27341C2E4AEC88 /* GCDWebServerErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07B83A2E6FCF9A05339E6974FC9D3D32 /* WebSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB1BF7C19E3D4F643CF5F98AE274D /* WebSocketServer.swift */; };
+		0850B643685B716A843209B63F6CA753 /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF12800AEE8AFCB3EA8514431BC8F3B /* GCDWebServerFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A193C823BB6292C31AB7C230104FCD4 /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 990BD7770B98361298A37194FFC19E11 /* GCDWebServerDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		115339A38D460F8F577EF07ADEA1A318 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA569E7F15C97FA663749E0A05AD303 /* GCDWebServerRequest.m */; };
+		132F780E43E12D7EDADAA2AD29A012AA /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F573E3B63B88FA643D6A89D054596DDF /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A2B557B3DA3EEF66C5E1573000337D7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC45E7524341B651F7B00597C13164BD /* CFNetwork.framework */; };
+		1E3E2F1DF5E1C8D27447FCF94D111167 /* FoundationHTTPServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E46455AD8F521F86989101F005BDA3 /* FoundationHTTPServerHandler.swift */; };
+		21A5D9EBAC5FED24E7FE77087A33B645 /* Framer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A8A835D668AA02BD541E4F142F09EF /* Framer.swift */; };
+		29A5B34BEA9DBDAE4750CB47F792603B /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A543EC8DC6CA1BBA74B1A39950522373 /* GCDWebServerFileResponse.m */; };
+		2E8B8E6EE40660BD17C48463C0127665 /* Pods-HSS - iPhone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E64EC66E0DA9909514BAE73E544B829C /* Pods-HSS - iPhone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30B3EF9513CAABF89A6551C0B539C0C9 /* GCDWebServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D429874BBE12256CCCD13E1F08902C2 /* GCDWebServer-dummy.m */; };
+		31E77D0FAC67DCFEE1F3173E441C67D6 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA80EACFA2A2C90AA80B0F8351CE2931 /* Security.swift */; };
+		322EA5C0A11B1AA2AD84E0ECA23287A6 /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9D2C03AAD5C1DAB90820C94421B684 /* GCDWebServerDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38138AFEA61EB43360153E164720CE02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE600BF3A9006548A678BA55CD2B374D /* Foundation.framework */; };
+		39FF101C59062CF277500B39A51586FD /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F387FCCF745CF30203D3FC14679135 /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AB1D4CD1F02C6E0A06A4437E6142BA9 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F07C04D3BD13713E61931B3B5DFC4E7D /* GCDWebServerConnection.m */; };
+		3CFB26DFC9AC8164AEC49CD75577C535 /* FoundationHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E2BE7510ECB0EACB7DE506CF98E360 /* FoundationHTTPHandler.swift */; };
+		3F392CA18FC6624A4B0F41B8EADAC560 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B10E42B1E2058EDEE16A91407F549EF9 /* GCDWebServerFileRequest.m */; };
+		3F6B562AAE2AABA2B0016B3C557B3BC4 /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 528C2F385096F58B717D68259D78D5A3 /* GCDWebServerHTTPStatusCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43FE097FBE9B5568B702545F99072CFB /* FoundationTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D9C5958CDA68277ED7A897084A5EE3 /* FoundationTransport.swift */; };
+		45F12828A661922A3344EA5248FB1534 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1405E11055F8ED5ED5DD5697B46120C2 /* GCDWebServerFileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4816EF150D924B1987414B356C7AB77E /* FrameCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860E9AC3F2F4581462893CD30BAA4EE /* FrameCollector.swift */; };
+		4AC4E87A3CB2C676949C33E78E64BA93 /* Starscream-Starscream_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = 90DF440CB562947BB255E9A3E9B29568 /* Starscream-Starscream_Privacy */; };
+		4C5BB45AFA17EE49908EEE4B8163EF76 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928199D4C4D5E25DEBC5FD8407D277C5 /* Server.swift */; };
+		4EE517050E5B8F808EFEFBD33B1DF61A /* Pods-HSS - iPhone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7766C8ABBCFAB688FB48876F650C3A01 /* Pods-HSS - iPhone-dummy.m */; };
+		4EE6E696359FD8759720795A5C35ACB6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787F3D0773D066BC625A0E914BFC0556 /* MobileCoreServices.framework */; };
+		4F304708B18DB6CD6917CA367EEE0D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE600BF3A9006548A678BA55CD2B374D /* Foundation.framework */; };
+		5452190EBAEE1E56C59A73DBB3B18090 /* Pods-HSS - iPhone-HSS - iPhoneUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73482E37152EB190CEBFAF7F2C46071F /* Pods-HSS - iPhone-HSS - iPhoneUITests-dummy.m */; };
+		55DAC2E8DC333019B6C1D70EC91B0A22 /* WSCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200C7BDBA753151BBFA9D7C22DD1541D /* WSCompression.swift */; };
+		5C7CD2D53150DE713900F9DDE53803DF /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B3315F061442AA84E305C2FE81985E /* GCDWebServerResponse.m */; };
+		650819F4BEAA42338DD16AAE8A90A2FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE600BF3A9006548A678BA55CD2B374D /* Foundation.framework */; };
+		66A38D34C5AFBE7493C8BC95031A1FED /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3E71B7EA0FBE35C2B0C56B8DBE4B8B /* GCDWebServerURLEncodedFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69111C8CB8268AAD6DD50A84B22944EE /* FoundationSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FB0F2D997BAF3174095E247B9126F /* FoundationSecurity.swift */; };
+		6F6B10A85B5214F5CD0CD90352277B70 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A02CC86128C304BC96D1126EB94E52C1 /* GCDWebServerDataResponse.m */; };
+		6F883F7CBBFCB067062FB0528F231077 /* Pods-HSS - iPhone-HSS - iPhoneUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4CACA48792DE529B9B1B2B3497C886 /* Pods-HSS - iPhone-HSS - iPhoneUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7830C4D854FFAAA6099F981CAD4C581D /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 43DD5DE9193B6E54D392A8AD50B8EA9A /* GCDWebServerPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7E991AB2EC94565819F8FA947D0D9F40 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 064E16648EEAB7245FA1C00444CFF307 /* GCDWebServerErrorResponse.m */; };
+		825B3A4588F81EE552813BF1888187D1 /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 052ECC98A94C8499B56AA955593AE8D6 /* GCDWebServerFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85F55FDAED763889D7DADACE5DC5C567 /* WSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF33154D049DB38E0B3D2306541F5FD /* WSEngine.swift */; };
+		8A472901A6A0E2D7231E376832198241 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ECB0AE0073CCCAEE72B7F62C8B68D7 /* WebSocket.swift */; };
+		96EE9CB2007DA2C0B922E55BF12DF494 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 377030534A56F7E05944923C6FDDE20B /* GCDWebServerDataRequest.m */; };
+		A017485C3C202ADD0A059DFCCDA5D14D /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6D28B9BDF37EC5DAE6E565A103F114 /* Starscream-dummy.m */; };
+		A0A17B87EE7B5E97A88DAB84B7DF3649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE600BF3A9006548A678BA55CD2B374D /* Foundation.framework */; };
+		A2741B5FBC4427CCB8ED4C36046A90C1 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AE72522EB1E87F05ACBC18316F965C20 /* GCDWebServerURLEncodedFormRequest.m */; };
+		A46B4250DBAE3FEC36B8540788AE1615 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A81CC89E4667990461822290E5AA2533 /* GCDWebServerMultiPartFormRequest.m */; };
+		B1EDE680CB2182C3B4900E1945783F9B /* NativeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C17781871EDA5202F23EF07E60A5D7 /* NativeEngine.swift */; };
+		BECD28904453E5C00C66B51D37CAD433 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8A85356E5E0747BBC78B50A84E6FB2 /* Transport.swift */; };
+		C27AC4CF7DC6EEF22BE5CF742C34BF1B /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DED3E0439CDCB32CDC5CC9AD5AE5DB /* Data+Extensions.swift */; };
+		C56FA3D979F5796FB89361CA05A8A64C /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A617F7B242BB960CF68C2F39162CA7 /* GCDWebServerConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6E71C71E4833389B33C0199196A5E13 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4124B06B846555FA97D582CDFDD5873B /* Engine.swift */; };
+		C7EC783EBA035B4FAF67AE4397A9D21B /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB015371CDC8179A9E7BC4EC0C66E3A /* GCDWebServerMultiPartFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB944727EC7CEC5FA41F001DA9E43183 /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4642F4E16EE0B023863FC15444E154EB /* GCDWebServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCDFCF2082C37DDFCEC6805394C8A63A /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC3608C3688BA7AEE0B42615D9923D /* GCDWebServer.m */; };
+		D6102474025E613F9F8D98EFB708CEC6 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3BC1EF441C0D0A298135348D105C19 /* Compression.swift */; };
+		D68D457CDD983B56BF92FCD9DEB29549 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C6549F579C43459180E517CC85D777C8 /* PrivacyInfo.xcprivacy */; };
+		D8D51B6D3248D9CEA719A66A2ABC7319 /* StringHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2D0374B0FB55D9C3BF22041048C5D7 /* StringHTTPHandler.swift */; };
+		DC2BE589B1C5A65E08CA6D9D7C319E17 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83994A73EC607E9F3034A509DE5170C0 /* HTTPHandler.swift */; };
+		E441F73F469E950DAD256C0DA0F1E74A /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 820714938C4F9E9E68C377AE72ECB136 /* GCDWebServerStreamedResponse.m */; };
+		E44B44702E04A3D794A247B34ABCAEF6 /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 213BB39CCCFABD6F048A4B0D173009FB /* GCDWebServerRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2CC0D7E552C3E9C1EE56D98A46187D4 /* Pods-HSS - iPhoneTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF1EE3F7E1825DF49A6F4AB963212F4 /* Pods-HSS - iPhoneTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9D9ABBA9599D2ACD016A507D4B485F9 /* GCDWebServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDAEE471B9C8DA638DC29A74E9428191 /* GCDWebServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD12E7AA8CADC95A0AA702CFEC81904 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E7CBF45CACFC5CB03EFAB4B4574A5 /* GCDWebServerFunctions.m */; };
+		FCDABF3EC68E50BD96CA294987AF7931 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D35E817D2EC947E3EE4EBF01E0D96917 /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD8A6F93705C4B172C32D52D17B2B5DC /* TCPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2F56ACEDBF1BC7BDD7F972691442AF /* TCPTransport.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3368D1882F5FF5F04D8C34ECA56F1FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		6F3D5B1470D6CB0EE3316617474AAA6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		7A6D59DD596A1130783D69D8CFECE3D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9A364A81B80FD025C483372F0959FF3;
+			remoteInfo = "Pods-HSS - iPhone";
+		};
+		7F792829564F495C2F27AAD08A95FE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 771210E06FA095D070EFB58429312B8F;
+			remoteInfo = "Starscream-Starscream_Privacy";
+		};
+		A11693CA9C69C91356E7CD6F78C6F0BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD904F32069787EFB2DFFE05EB82F5BD;
+			remoteInfo = GCDWebServer;
+		};
+		D51BA896C2E84231BE2B8F9BB05AF7C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD904F32069787EFB2DFFE05EB82F5BD;
+			remoteInfo = GCDWebServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C0713503AE98D7CE6D292BA86AFB98 /* Pods-HSS - iPhone-HSS - iPhoneUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSS - iPhone-HSS - iPhoneUITests-frameworks.sh"; sourceTree = "<group>"; };
+		052ECC98A94C8499B56AA955593AE8D6 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileResponse.h; path = GCDWebServer/Responses/GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		064E16648EEAB7245FA1C00444CFF307 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = GCDWebServer/Responses/GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		0933809BFEA573798C42B27B6FB7E62D /* Pods-HSS - iPhone-HSS - iPhoneUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HSS - iPhone-HSS - iPhoneUITests"; path = Pods_HSS___iPhone_HSS___iPhoneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2F56ACEDBF1BC7BDD7F972691442AF /* TCPTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPTransport.swift; path = Sources/Transport/TCPTransport.swift; sourceTree = "<group>"; };
+		12A8A835D668AA02BD541E4F142F09EF /* Framer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Framer.swift; path = Sources/Framer/Framer.swift; sourceTree = "<group>"; };
+		1405E11055F8ED5ED5DD5697B46120C2 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileRequest.h; path = GCDWebServer/Requests/GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		1CE3BB9E699EEF0250922228AC9FAF6C /* Pods-HSS - iPhone-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSS - iPhone-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D429874BBE12256CCCD13E1F08902C2 /* GCDWebServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCDWebServer-dummy.m"; sourceTree = "<group>"; };
+		200C7BDBA753151BBFA9D7C22DD1541D /* WSCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSCompression.swift; path = Sources/Compression/WSCompression.swift; sourceTree = "<group>"; };
+		20272259BAFF728D600BC365C37B5970 /* Pods-HSS - iPhoneTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSS - iPhoneTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		213BB39CCCFABD6F048A4B0D173009FB /* GCDWebServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = GCDWebServer/Core/GCDWebServerRequest.h; sourceTree = "<group>"; };
+		2BAF8CF21495B44B5172DF61A501B346 /* Pods-HSS - iPhone-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSS - iPhone-frameworks.sh"; sourceTree = "<group>"; };
+		2FE05D7BA8DABB72116DB0712DA02C0A /* Pods-HSS - iPhone-HSS - iPhoneUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSS - iPhone-HSS - iPhoneUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3480FC7F3A3EEE88841E495B887405A3 /* Pods-HSS - iPhoneTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HSS - iPhoneTests.modulemap"; sourceTree = "<group>"; };
+		377030534A56F7E05944923C6FDDE20B /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = GCDWebServer/Requests/GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		3B7B0B7B7258EFB86693C4E8134CF2AB /* GCDWebServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCDWebServer.modulemap; sourceTree = "<group>"; };
+		4124B06B846555FA97D582CDFDD5873B /* Engine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Sources/Engine/Engine.swift; sourceTree = "<group>"; };
+		41837D752C25E52CA209C3E85669EE78 /* Pods-HSS - iPhone-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSS - iPhone-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43DD5DE9193B6E54D392A8AD50B8EA9A /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = GCDWebServer/Core/GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		4642F4E16EE0B023863FC15444E154EB /* GCDWebServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = GCDWebServer/Core/GCDWebServer.h; sourceTree = "<group>"; };
+		4E5431A4AEBFBD7A1C6548B895F61E8D /* Pods-HSS - iPhone-HSS - iPhoneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSS - iPhone-HSS - iPhoneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		528C2F385096F58B717D68259D78D5A3 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		53DED3E0439CDCB32CDC5CC9AD5AE5DB /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extensions.swift"; path = "Sources/DataBytes/Data+Extensions.swift"; sourceTree = "<group>"; };
+		6035861D510686211F46E8F61FAAD4A2 /* ResourceBundle-Starscream_Privacy-Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Starscream_Privacy-Starscream-Info.plist"; sourceTree = "<group>"; };
+		67BD793065E97DE2EB27341C2E4AEC88 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = GCDWebServer/Responses/GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		67EC3608C3688BA7AEE0B42615D9923D /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
+		67FA05BF1D8B95403839D89BCCC06D0D /* Pods-HSS - iPhoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSS - iPhoneTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A6D28B9BDF37EC5DAE6E565A103F114 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		6E7FB0F2D997BAF3174095E247B9126F /* FoundationSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationSecurity.swift; path = Sources/Security/FoundationSecurity.swift; sourceTree = "<group>"; };
+		720AFBAFE22105B60320BE81EAA1509A /* GCDWebServer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GCDWebServer-Info.plist"; sourceTree = "<group>"; };
+		73482E37152EB190CEBFAF7F2C46071F /* Pods-HSS - iPhone-HSS - iPhoneUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSS - iPhone-HSS - iPhoneUITests-dummy.m"; sourceTree = "<group>"; };
+		756CF38860743137432580B97C00DBA5 /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
+		7766C8ABBCFAB688FB48876F650C3A01 /* Pods-HSS - iPhone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSS - iPhone-dummy.m"; sourceTree = "<group>"; };
+		787F3D0773D066BC625A0E914BFC0556 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		7CA569E7F15C97FA663749E0A05AD303 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
+		81A15C84C47D5FA57FE508D89438A728 /* Pods-HSS - iPhone-HSS - iPhoneUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSS - iPhone-HSS - iPhoneUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		820714938C4F9E9E68C377AE72ECB136 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerStreamedResponse.m; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		83994A73EC607E9F3034A509DE5170C0 /* HTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHandler.swift; path = Sources/Framer/HTTPHandler.swift; sourceTree = "<group>"; };
+		83F387FCCF745CF30203D3FC14679135 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = GCDWebServer/Core/GCDWebServerResponse.h; sourceTree = "<group>"; };
+		85B3315F061442AA84E305C2FE81985E /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
+		891B2270823847ED23F2ECFC28F935EC /* Starscream */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8325BF78C9013167F36EF6DCE015D1 /* Pods-HSS - iPhone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HSS - iPhone.modulemap"; sourceTree = "<group>"; };
+		8DF12800AEE8AFCB3EA8514431BC8F3B /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = GCDWebServer/Core/GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		8E674368FA61E6AAEC30C952B653061D /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
+		8EB9DA89DBFF7173FBAB517178BD2C36 /* Pods-HSS - iPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSS - iPhone.debug.xcconfig"; sourceTree = "<group>"; };
+		8FB015371CDC8179A9E7BC4EC0C66E3A /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		8FF1EE3F7E1825DF49A6F4AB963212F4 /* Pods-HSS - iPhoneTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSS - iPhoneTests-umbrella.h"; sourceTree = "<group>"; };
+		90DF440CB562947BB255E9A3E9B29568 /* Starscream-Starscream_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Starscream-Starscream_Privacy"; path = Starscream_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		928199D4C4D5E25DEBC5FD8407D277C5 /* Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Server.swift; path = Sources/Server/Server.swift; sourceTree = "<group>"; };
+		9523A2C5A651CF694AA74CD044235CA7 /* Pods-HSS - iPhone */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HSS - iPhone"; path = Pods_HSS___iPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		953CB1BF7C19E3D4F643CF5F98AE274D /* WebSocketServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketServer.swift; path = Sources/Server/WebSocketServer.swift; sourceTree = "<group>"; };
+		96C17781871EDA5202F23EF07E60A5D7 /* NativeEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeEngine.swift; path = Sources/Engine/NativeEngine.swift; sourceTree = "<group>"; };
+		990BD7770B98361298A37194FFC19E11 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataResponse.h; path = GCDWebServer/Responses/GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		9C11A9EECA3A28B5586FCD4DA2397B61 /* Pods-HSS - iPhoneTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSS - iPhoneTests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A02CC86128C304BC96D1126EB94E52C1 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = GCDWebServer/Responses/GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		A543EC8DC6CA1BBA74B1A39950522373 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileResponse.m; path = GCDWebServer/Responses/GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		A7A8362E60B9EADEA8728BFC8400966E /* Starscream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.release.xcconfig; sourceTree = "<group>"; };
+		A7E05CA025C7F73A8B667BC1CE422D2C /* Pods-HSS - iPhone-HSS - iPhoneUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HSS - iPhone-HSS - iPhoneUITests.modulemap"; sourceTree = "<group>"; };
+		A81CC89E4667990461822290E5AA2533 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerMultiPartFormRequest.m; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		AA8992FDBD1C568DDBEF3440DB514602 /* Pods-HSS - iPhone-HSS - iPhoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSS - iPhone-HSS - iPhoneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC3BC1EF441C0D0A298135348D105C19 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression/Compression.swift; sourceTree = "<group>"; };
+		AC45E7524341B651F7B00597C13164BD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		AE72522EB1E87F05ACBC18316F965C20 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		B10E42B1E2058EDEE16A91407F549EF9 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = GCDWebServer/Requests/GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCDWebServer; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6E7CBF45CACFC5CB03EFAB4B4574A5 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFunctions.m; path = GCDWebServer/Core/GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		BB8A85356E5E0747BBC78B50A84E6FB2 /* Transport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transport.swift; path = Sources/Transport/Transport.swift; sourceTree = "<group>"; };
+		BBDC081DE01B02321FCAF4FD96E55240 /* Pods-HSS - iPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSS - iPhone.release.xcconfig"; sourceTree = "<group>"; };
+		BE600BF3A9006548A678BA55CD2B374D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C1ECB0AE0073CCCAEE72B7F62C8B68D7 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
+		C3D9C5958CDA68277ED7A897084A5EE3 /* FoundationTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationTransport.swift; path = Sources/Transport/FoundationTransport.swift; sourceTree = "<group>"; };
+		C3FCB26A5B44D8C3FB12F5AEA9022410 /* GCDWebServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.debug.xcconfig; sourceTree = "<group>"; };
+		C6549F579C43459180E517CC85D777C8 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		C82CBA8531B3576B2BCC02593A3469CD /* GCDWebServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.release.xcconfig; sourceTree = "<group>"; };
+		C8EB7AE7CD1BBA5ABA85BFC02DD89105 /* Pods-HSS - iPhone-HSS - iPhoneUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSS - iPhone-HSS - iPhoneUITests-Info.plist"; sourceTree = "<group>"; };
+		CAF80B2F7805500EE8B701A13AC34BA3 /* Pods-HSS - iPhoneTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSS - iPhoneTests-dummy.m"; sourceTree = "<group>"; };
+		CD73F9B26DEC5FAAB19B404F1D3EB3FC /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		CE4CACA48792DE529B9B1B2B3497C886 /* Pods-HSS - iPhone-HSS - iPhoneUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSS - iPhone-HSS - iPhoneUITests-umbrella.h"; sourceTree = "<group>"; };
+		D35E817D2EC947E3EE4EBF01E0D96917 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		D3793BBB191C6E045B5704C2397EDA52 /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
+		D5A617F7B242BB960CF68C2F39162CA7 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerConnection.h; path = GCDWebServer/Core/GCDWebServerConnection.h; sourceTree = "<group>"; };
+		D6E2BE7510ECB0EACB7DE506CF98E360 /* FoundationHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPHandler.swift; path = Sources/Framer/FoundationHTTPHandler.swift; sourceTree = "<group>"; };
+		E485B6D0534D3819BDA63C1CA6ACB2BB /* Pods-HSS - iPhoneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSS - iPhoneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4E46455AD8F521F86989101F005BDA3 /* FoundationHTTPServerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPServerHandler.swift; path = Sources/Framer/FoundationHTTPServerHandler.swift; sourceTree = "<group>"; };
+		E64EC66E0DA9909514BAE73E544B829C /* Pods-HSS - iPhone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSS - iPhone-umbrella.h"; sourceTree = "<group>"; };
+		E860E9AC3F2F4581462893CD30BAA4EE /* FrameCollector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCollector.swift; path = Sources/Framer/FrameCollector.swift; sourceTree = "<group>"; };
+		EA80EACFA2A2C90AA80B0F8351CE2931 /* Security.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Security.swift; path = Sources/Security/Security.swift; sourceTree = "<group>"; };
+		EC9D2C03AAD5C1DAB90820C94421B684 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataRequest.h; path = GCDWebServer/Requests/GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		EEE19DA3FD1E2EC9DE2C0320C4283925 /* Pods-HSS - iPhoneTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSS - iPhoneTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF807BB521332AE000CBB0AD6476E8C2 /* Pods-HSS - iPhoneTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HSS - iPhoneTests"; path = Pods_HSS___iPhoneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07C04D3BD13713E61931B3B5DFC4E7D /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = GCDWebServer/Core/GCDWebServerConnection.m; sourceTree = "<group>"; };
+		F573E3B63B88FA643D6A89D054596DDF /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		FC3E71B7EA0FBE35C2B0C56B8DBE4B8B /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		FDAEE471B9C8DA638DC29A74E9428191 /* GCDWebServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-umbrella.h"; sourceTree = "<group>"; };
+		FDFF22CE0F9C68EB8837C77895BE97EB /* Pods-HSS - iPhone-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSS - iPhone-Info.plist"; sourceTree = "<group>"; };
+		FE2D0374B0FB55D9C3BF22041048C5D7 /* StringHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringHTTPHandler.swift; path = Sources/Framer/StringHTTPHandler.swift; sourceTree = "<group>"; };
+		FFF33154D049DB38E0B3D2306541F5FD /* WSEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSEngine.swift; path = Sources/Engine/WSEngine.swift; sourceTree = "<group>"; };
+		FFFD2739B86B1DD9BAAAA9EAD52ED04B /* Starscream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64EBEF6FBC4DA04A9DADFEA286929878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A5BC0CE18D175AAAB37231C2D00176 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EF5BBC3EFCFE60910B74638A1755FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A17B87EE7B5E97A88DAB84B7DF3649 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FE4E80074DED1EC09D26ECE885EC04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650819F4BEAA42338DD16AAE8A90A2FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAD91FAA7295BE7EF8AE6FD422630C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D192EE64455F09BFEE03A63920A874E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2B557B3DA3EEF66C5E1573000337D7 /* CFNetwork.framework in Frameworks */,
+				38138AFEA61EB43360153E164720CE02 /* Foundation.framework in Frameworks */,
+				4EE6E696359FD8759720795A5C35ACB6 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36430DBD84C18F3673DB6982321D349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F304708B18DB6CD6917CA367EEE0D7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				480422F6FA3B5288CD1DC4AECA35070D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10E995B23D154D811EA15A817856FC67 /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				AC3BC1EF441C0D0A298135348D105C19 /* Compression.swift */,
+				53DED3E0439CDCB32CDC5CC9AD5AE5DB /* Data+Extensions.swift */,
+				4124B06B846555FA97D582CDFDD5873B /* Engine.swift */,
+				D6E2BE7510ECB0EACB7DE506CF98E360 /* FoundationHTTPHandler.swift */,
+				E4E46455AD8F521F86989101F005BDA3 /* FoundationHTTPServerHandler.swift */,
+				6E7FB0F2D997BAF3174095E247B9126F /* FoundationSecurity.swift */,
+				C3D9C5958CDA68277ED7A897084A5EE3 /* FoundationTransport.swift */,
+				E860E9AC3F2F4581462893CD30BAA4EE /* FrameCollector.swift */,
+				12A8A835D668AA02BD541E4F142F09EF /* Framer.swift */,
+				83994A73EC607E9F3034A509DE5170C0 /* HTTPHandler.swift */,
+				96C17781871EDA5202F23EF07E60A5D7 /* NativeEngine.swift */,
+				EA80EACFA2A2C90AA80B0F8351CE2931 /* Security.swift */,
+				928199D4C4D5E25DEBC5FD8407D277C5 /* Server.swift */,
+				FE2D0374B0FB55D9C3BF22041048C5D7 /* StringHTTPHandler.swift */,
+				0B2F56ACEDBF1BC7BDD7F972691442AF /* TCPTransport.swift */,
+				BB8A85356E5E0747BBC78B50A84E6FB2 /* Transport.swift */,
+				C1ECB0AE0073CCCAEE72B7F62C8B68D7 /* WebSocket.swift */,
+				953CB1BF7C19E3D4F643CF5F98AE274D /* WebSocketServer.swift */,
+				200C7BDBA753151BBFA9D7C22DD1541D /* WSCompression.swift */,
+				FFF33154D049DB38E0B3D2306541F5FD /* WSEngine.swift */,
+				AE5FD9F05C3023B24C7F5487D89BFFF4 /* Resources */,
+				9C1EE17F4CBD79656B43EB0B23C407A5 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		123EE2BC69EC6678F1C17A443C775A6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer */,
+				9523A2C5A651CF694AA74CD044235CA7 /* Pods-HSS - iPhone */,
+				0933809BFEA573798C42B27B6FB7E62D /* Pods-HSS - iPhone-HSS - iPhoneUITests */,
+				EF807BB521332AE000CBB0AD6476E8C2 /* Pods-HSS - iPhoneTests */,
+				891B2270823847ED23F2ECFC28F935EC /* Starscream */,
+				90DF440CB562947BB255E9A3E9B29568 /* Starscream-Starscream_Privacy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		272AA250A8AEE748A09A63D49B7F1A18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B7B0B7B7258EFB86693C4E8134CF2AB /* GCDWebServer.modulemap */,
+				1D429874BBE12256CCCD13E1F08902C2 /* GCDWebServer-dummy.m */,
+				720AFBAFE22105B60320BE81EAA1509A /* GCDWebServer-Info.plist */,
+				756CF38860743137432580B97C00DBA5 /* GCDWebServer-prefix.pch */,
+				FDAEE471B9C8DA638DC29A74E9428191 /* GCDWebServer-umbrella.h */,
+				C3FCB26A5B44D8C3FB12F5AEA9022410 /* GCDWebServer.debug.xcconfig */,
+				C82CBA8531B3576B2BCC02593A3469CD /* GCDWebServer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GCDWebServer";
+			sourceTree = "<group>";
+		};
+		480422F6FA3B5288CD1DC4AECA35070D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AC45E7524341B651F7B00597C13164BD /* CFNetwork.framework */,
+				BE600BF3A9006548A678BA55CD2B374D /* Foundation.framework */,
+				787F3D0773D066BC625A0E914BFC0556 /* MobileCoreServices.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		84211D4486F17170B10FD3A220FA26E7 /* Pods-HSS - iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				8B8325BF78C9013167F36EF6DCE015D1 /* Pods-HSS - iPhone.modulemap */,
+				41837D752C25E52CA209C3E85669EE78 /* Pods-HSS - iPhone-acknowledgements.markdown */,
+				1CE3BB9E699EEF0250922228AC9FAF6C /* Pods-HSS - iPhone-acknowledgements.plist */,
+				7766C8ABBCFAB688FB48876F650C3A01 /* Pods-HSS - iPhone-dummy.m */,
+				2BAF8CF21495B44B5172DF61A501B346 /* Pods-HSS - iPhone-frameworks.sh */,
+				FDFF22CE0F9C68EB8837C77895BE97EB /* Pods-HSS - iPhone-Info.plist */,
+				E64EC66E0DA9909514BAE73E544B829C /* Pods-HSS - iPhone-umbrella.h */,
+				8EB9DA89DBFF7173FBAB517178BD2C36 /* Pods-HSS - iPhone.debug.xcconfig */,
+				BBDC081DE01B02321FCAF4FD96E55240 /* Pods-HSS - iPhone.release.xcconfig */,
+			);
+			name = "Pods-HSS - iPhone";
+			path = "Target Support Files/Pods-HSS - iPhone";
+			sourceTree = "<group>";
+		};
+		87576B5B59246388BBB9E952BC4CDE8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBD98D78A19191020BCEC6AFC30AC2CA /* GCDWebServer */,
+				10E995B23D154D811EA15A817856FC67 /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C1EE17F4CBD79656B43EB0B23C407A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6035861D510686211F46E8F61FAAD4A2 /* ResourceBundle-Starscream_Privacy-Starscream-Info.plist */,
+				8E674368FA61E6AAEC30C952B653061D /* Starscream.modulemap */,
+				6A6D28B9BDF37EC5DAE6E565A103F114 /* Starscream-dummy.m */,
+				D3793BBB191C6E045B5704C2397EDA52 /* Starscream-Info.plist */,
+				CD73F9B26DEC5FAAB19B404F1D3EB3FC /* Starscream-prefix.pch */,
+				F573E3B63B88FA643D6A89D054596DDF /* Starscream-umbrella.h */,
+				FFFD2739B86B1DD9BAAAA9EAD52ED04B /* Starscream.debug.xcconfig */,
+				A7A8362E60B9EADEA8728BFC8400966E /* Starscream.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+		A8939642D0E7CFC30018B10802FF9145 /* Pods-HSS - iPhone-HSS - iPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7E05CA025C7F73A8B667BC1CE422D2C /* Pods-HSS - iPhone-HSS - iPhoneUITests.modulemap */,
+				81A15C84C47D5FA57FE508D89438A728 /* Pods-HSS - iPhone-HSS - iPhoneUITests-acknowledgements.markdown */,
+				2FE05D7BA8DABB72116DB0712DA02C0A /* Pods-HSS - iPhone-HSS - iPhoneUITests-acknowledgements.plist */,
+				73482E37152EB190CEBFAF7F2C46071F /* Pods-HSS - iPhone-HSS - iPhoneUITests-dummy.m */,
+				00C0713503AE98D7CE6D292BA86AFB98 /* Pods-HSS - iPhone-HSS - iPhoneUITests-frameworks.sh */,
+				C8EB7AE7CD1BBA5ABA85BFC02DD89105 /* Pods-HSS - iPhone-HSS - iPhoneUITests-Info.plist */,
+				CE4CACA48792DE529B9B1B2B3497C886 /* Pods-HSS - iPhone-HSS - iPhoneUITests-umbrella.h */,
+				4E5431A4AEBFBD7A1C6548B895F61E8D /* Pods-HSS - iPhone-HSS - iPhoneUITests.debug.xcconfig */,
+				AA8992FDBD1C568DDBEF3440DB514602 /* Pods-HSS - iPhone-HSS - iPhoneUITests.release.xcconfig */,
+			);
+			name = "Pods-HSS - iPhone-HSS - iPhoneUITests";
+			path = "Target Support Files/Pods-HSS - iPhone-HSS - iPhoneUITests";
+			sourceTree = "<group>";
+		};
+		AE5FD9F05C3023B24C7F5487D89BFFF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6549F579C43459180E517CC85D777C8 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C19FE7A3C7261E5A21FFDBF76D5DEF6C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4642F4E16EE0B023863FC15444E154EB /* GCDWebServer.h */,
+				67EC3608C3688BA7AEE0B42615D9923D /* GCDWebServer.m */,
+				D5A617F7B242BB960CF68C2F39162CA7 /* GCDWebServerConnection.h */,
+				F07C04D3BD13713E61931B3B5DFC4E7D /* GCDWebServerConnection.m */,
+				EC9D2C03AAD5C1DAB90820C94421B684 /* GCDWebServerDataRequest.h */,
+				377030534A56F7E05944923C6FDDE20B /* GCDWebServerDataRequest.m */,
+				990BD7770B98361298A37194FFC19E11 /* GCDWebServerDataResponse.h */,
+				A02CC86128C304BC96D1126EB94E52C1 /* GCDWebServerDataResponse.m */,
+				67BD793065E97DE2EB27341C2E4AEC88 /* GCDWebServerErrorResponse.h */,
+				064E16648EEAB7245FA1C00444CFF307 /* GCDWebServerErrorResponse.m */,
+				1405E11055F8ED5ED5DD5697B46120C2 /* GCDWebServerFileRequest.h */,
+				B10E42B1E2058EDEE16A91407F549EF9 /* GCDWebServerFileRequest.m */,
+				052ECC98A94C8499B56AA955593AE8D6 /* GCDWebServerFileResponse.h */,
+				A543EC8DC6CA1BBA74B1A39950522373 /* GCDWebServerFileResponse.m */,
+				8DF12800AEE8AFCB3EA8514431BC8F3B /* GCDWebServerFunctions.h */,
+				BB6E7CBF45CACFC5CB03EFAB4B4574A5 /* GCDWebServerFunctions.m */,
+				528C2F385096F58B717D68259D78D5A3 /* GCDWebServerHTTPStatusCodes.h */,
+				8FB015371CDC8179A9E7BC4EC0C66E3A /* GCDWebServerMultiPartFormRequest.h */,
+				A81CC89E4667990461822290E5AA2533 /* GCDWebServerMultiPartFormRequest.m */,
+				43DD5DE9193B6E54D392A8AD50B8EA9A /* GCDWebServerPrivate.h */,
+				213BB39CCCFABD6F048A4B0D173009FB /* GCDWebServerRequest.h */,
+				7CA569E7F15C97FA663749E0A05AD303 /* GCDWebServerRequest.m */,
+				83F387FCCF745CF30203D3FC14679135 /* GCDWebServerResponse.h */,
+				85B3315F061442AA84E305C2FE81985E /* GCDWebServerResponse.m */,
+				D35E817D2EC947E3EE4EBF01E0D96917 /* GCDWebServerStreamedResponse.h */,
+				820714938C4F9E9E68C377AE72ECB136 /* GCDWebServerStreamedResponse.m */,
+				FC3E71B7EA0FBE35C2B0C56B8DBE4B8B /* GCDWebServerURLEncodedFormRequest.h */,
+				AE72522EB1E87F05ACBC18316F965C20 /* GCDWebServerURLEncodedFormRequest.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				87576B5B59246388BBB9E952BC4CDE8A /* Pods */,
+				123EE2BC69EC6678F1C17A443C775A6F /* Products */,
+				EFD529FED7F62A6A8628E77375CABBD5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD98D78A19191020BCEC6AFC30AC2CA /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				C19FE7A3C7261E5A21FFDBF76D5DEF6C /* Core */,
+				272AA250A8AEE748A09A63D49B7F1A18 /* Support Files */,
+			);
+			name = GCDWebServer;
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		EFD529FED7F62A6A8628E77375CABBD5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84211D4486F17170B10FD3A220FA26E7 /* Pods-HSS - iPhone */,
+				A8939642D0E7CFC30018B10802FF9145 /* Pods-HSS - iPhone-HSS - iPhoneUITests */,
+				F6F0F7F4D6A32C7097DDC186B4D67784 /* Pods-HSS - iPhoneTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F6F0F7F4D6A32C7097DDC186B4D67784 /* Pods-HSS - iPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				3480FC7F3A3EEE88841E495B887405A3 /* Pods-HSS - iPhoneTests.modulemap */,
+				EEE19DA3FD1E2EC9DE2C0320C4283925 /* Pods-HSS - iPhoneTests-acknowledgements.markdown */,
+				20272259BAFF728D600BC365C37B5970 /* Pods-HSS - iPhoneTests-acknowledgements.plist */,
+				CAF80B2F7805500EE8B701A13AC34BA3 /* Pods-HSS - iPhoneTests-dummy.m */,
+				9C11A9EECA3A28B5586FCD4DA2397B61 /* Pods-HSS - iPhoneTests-Info.plist */,
+				8FF1EE3F7E1825DF49A6F4AB963212F4 /* Pods-HSS - iPhoneTests-umbrella.h */,
+				E485B6D0534D3819BDA63C1CA6ACB2BB /* Pods-HSS - iPhoneTests.debug.xcconfig */,
+				67FA05BF1D8B95403839D89BCCC06D0D /* Pods-HSS - iPhoneTests.release.xcconfig */,
+			);
+			name = "Pods-HSS - iPhoneTests";
+			path = "Target Support Files/Pods-HSS - iPhoneTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B78F4E7B81341F6266E55E38750F48E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F883F7CBBFCB067062FB0528F231077 /* Pods-HSS - iPhone-HSS - iPhoneUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1256A876431B40F609C3DD7028086D06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2CC0D7E552C3E9C1EE56D98A46187D4 /* Pods-HSS - iPhoneTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE343FFAC5CCBBEDC781E4FA3601A1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132F780E43E12D7EDADAA2AD29A012AA /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F2D66EDC63A29936B3C57688BD1288 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB944727EC7CEC5FA41F001DA9E43183 /* GCDWebServer.h in Headers */,
+				F9D9ABBA9599D2ACD016A507D4B485F9 /* GCDWebServer-umbrella.h in Headers */,
+				C56FA3D979F5796FB89361CA05A8A64C /* GCDWebServerConnection.h in Headers */,
+				322EA5C0A11B1AA2AD84E0ECA23287A6 /* GCDWebServerDataRequest.h in Headers */,
+				0A193C823BB6292C31AB7C230104FCD4 /* GCDWebServerDataResponse.h in Headers */,
+				05A8110E2B254083460DD5C669C454DA /* GCDWebServerErrorResponse.h in Headers */,
+				45F12828A661922A3344EA5248FB1534 /* GCDWebServerFileRequest.h in Headers */,
+				825B3A4588F81EE552813BF1888187D1 /* GCDWebServerFileResponse.h in Headers */,
+				0850B643685B716A843209B63F6CA753 /* GCDWebServerFunctions.h in Headers */,
+				3F6B562AAE2AABA2B0016B3C557B3BC4 /* GCDWebServerHTTPStatusCodes.h in Headers */,
+				C7EC783EBA035B4FAF67AE4397A9D21B /* GCDWebServerMultiPartFormRequest.h in Headers */,
+				7830C4D854FFAAA6099F981CAD4C581D /* GCDWebServerPrivate.h in Headers */,
+				E44B44702E04A3D794A247B34ABCAEF6 /* GCDWebServerRequest.h in Headers */,
+				39FF101C59062CF277500B39A51586FD /* GCDWebServerResponse.h in Headers */,
+				FCDABF3EC68E50BD96CA294987AF7931 /* GCDWebServerStreamedResponse.h in Headers */,
+				66A38D34C5AFBE7493C8BC95031A1FED /* GCDWebServerURLEncodedFormRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7B6C45C5306779E706C2D7CF9DA925 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8B8E6EE40660BD17C48463C0127665 /* Pods-HSS - iPhone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		74B642EA6C5A725B716CAF7BA3BF9F9F /* Pods-HSS - iPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6CA009A52423DE07CD5F07D4A79B3AC /* Build configuration list for PBXNativeTarget "Pods-HSS - iPhoneTests" */;
+			buildPhases = (
+				1256A876431B40F609C3DD7028086D06 /* Headers */,
+				C9867F93702CD2CCB6C0364F2A83F824 /* Sources */,
+				E36430DBD84C18F3673DB6982321D349 /* Frameworks */,
+				928C456ABD68F3B51DCB5429508C1627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884A092B089EEA3ADE7A935BC43090D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-HSS - iPhoneTests";
+			productName = Pods_HSS___iPhoneTests;
+			productReference = EF807BB521332AE000CBB0AD6476E8C2 /* Pods-HSS - iPhoneTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		771210E06FA095D070EFB58429312B8F /* Starscream-Starscream_Privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E39BC421E0960D9C836023A056C109CA /* Build configuration list for PBXNativeTarget "Starscream-Starscream_Privacy" */;
+			buildPhases = (
+				8C19DC18F43C80644FACBC7A3613BBD6 /* Sources */,
+				BEAD91FAA7295BE7EF8AE6FD422630C6 /* Frameworks */,
+				3CA3FDB420E04FCE92C4E12C42F43EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Starscream-Starscream_Privacy";
+			productName = Starscream_Privacy;
+			productReference = 90DF440CB562947BB255E9A3E9B29568 /* Starscream-Starscream_Privacy */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6AECD1528B47B8305DD9F79E68D882B /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				ECE343FFAC5CCBBEDC781E4FA3601A1A /* Headers */,
+				09AEF5B1B05F3FC55FE5B4A9E025B206 /* Sources */,
+				92EF5BBC3EFCFE60910B74638A1755FC /* Frameworks */,
+				7AC24AF3018BC9C6093C0062FFA1416B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9801F6B78087F0EB663AF2F9E18453 /* PBXTargetDependency */,
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B7992FB07D9BF741FDBDEC7631F0786 /* Pods-HSS - iPhone-HSS - iPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78943FCDAF91B27FFF03ABB9E49344B8 /* Build configuration list for PBXNativeTarget "Pods-HSS - iPhone-HSS - iPhoneUITests" */;
+			buildPhases = (
+				0B78F4E7B81341F6266E55E38750F48E /* Headers */,
+				4A156CD7C17887FAF96AB3E8E0863847 /* Sources */,
+				A5FE4E80074DED1EC09D26ECE885EC04 /* Frameworks */,
+				1FD6150858D2C27E48B7FABFDF8610A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABC446DFE366DCEACC8321CE3908C3F /* PBXTargetDependency */,
+				452DEB50FE148FE611882D404743488F /* PBXTargetDependency */,
+			);
+			name = "Pods-HSS - iPhone-HSS - iPhoneUITests";
+			productName = Pods_HSS___iPhone_HSS___iPhoneUITests;
+			productReference = 0933809BFEA573798C42B27B6FB7E62D /* Pods-HSS - iPhone-HSS - iPhoneUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9A364A81B80FD025C483372F0959FF3 /* Pods-HSS - iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831EE4C88750DF8F7E2AA6547CC54F6B /* Build configuration list for PBXNativeTarget "Pods-HSS - iPhone" */;
+			buildPhases = (
+				FE7B6C45C5306779E706C2D7CF9DA925 /* Headers */,
+				6F9F34F8A41A17D87C5AE733BF737759 /* Sources */,
+				64EBEF6FBC4DA04A9DADFEA286929878 /* Frameworks */,
+				3D9EE82CF26B28DD14D046AF2AA5B8F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6076C438B6081CC64CDCA9FA093F605E /* PBXTargetDependency */,
+				BAAC15A09BC9166272A827470A678153 /* PBXTargetDependency */,
+			);
+			name = "Pods-HSS - iPhone";
+			productName = Pods_HSS___iPhone;
+			productReference = 9523A2C5A651CF694AA74CD044235CA7 /* Pods-HSS - iPhone */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0441860C46AD4C97915B9E07FA1B7A4E /* Build configuration list for PBXNativeTarget "GCDWebServer" */;
+			buildPhases = (
+				F6F2D66EDC63A29936B3C57688BD1288 /* Headers */,
+				E02482C5BCC7050A4DC39D14714F2ED5 /* Sources */,
+				D192EE64455F09BFEE03A63920A874E2 /* Frameworks */,
+				EE46B4F358DA69DD6BB89E3F73B2B80E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDWebServer;
+			productName = GCDWebServer;
+			productReference = B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 123EE2BC69EC6678F1C17A443C775A6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */,
+				A9A364A81B80FD025C483372F0959FF3 /* Pods-HSS - iPhone */,
+				9B7992FB07D9BF741FDBDEC7631F0786 /* Pods-HSS - iPhone-HSS - iPhoneUITests */,
+				74B642EA6C5A725B716CAF7BA3BF9F9F /* Pods-HSS - iPhoneTests */,
+				9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */,
+				771210E06FA095D070EFB58429312B8F /* Starscream-Starscream_Privacy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FD6150858D2C27E48B7FABFDF8610A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA3FDB420E04FCE92C4E12C42F43EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68D457CDD983B56BF92FCD9DEB29549 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9EE82CF26B28DD14D046AF2AA5B8F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AC24AF3018BC9C6093C0062FFA1416B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC4E87A3CB2C676949C33E78E64BA93 /* Starscream-Starscream_Privacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928C456ABD68F3B51DCB5429508C1627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE46B4F358DA69DD6BB89E3F73B2B80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09AEF5B1B05F3FC55FE5B4A9E025B206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6102474025E613F9F8D98EFB708CEC6 /* Compression.swift in Sources */,
+				C27AC4CF7DC6EEF22BE5CF742C34BF1B /* Data+Extensions.swift in Sources */,
+				C6E71C71E4833389B33C0199196A5E13 /* Engine.swift in Sources */,
+				3CFB26DFC9AC8164AEC49CD75577C535 /* FoundationHTTPHandler.swift in Sources */,
+				1E3E2F1DF5E1C8D27447FCF94D111167 /* FoundationHTTPServerHandler.swift in Sources */,
+				69111C8CB8268AAD6DD50A84B22944EE /* FoundationSecurity.swift in Sources */,
+				43FE097FBE9B5568B702545F99072CFB /* FoundationTransport.swift in Sources */,
+				4816EF150D924B1987414B356C7AB77E /* FrameCollector.swift in Sources */,
+				21A5D9EBAC5FED24E7FE77087A33B645 /* Framer.swift in Sources */,
+				DC2BE589B1C5A65E08CA6D9D7C319E17 /* HTTPHandler.swift in Sources */,
+				B1EDE680CB2182C3B4900E1945783F9B /* NativeEngine.swift in Sources */,
+				31E77D0FAC67DCFEE1F3173E441C67D6 /* Security.swift in Sources */,
+				4C5BB45AFA17EE49908EEE4B8163EF76 /* Server.swift in Sources */,
+				A017485C3C202ADD0A059DFCCDA5D14D /* Starscream-dummy.m in Sources */,
+				D8D51B6D3248D9CEA719A66A2ABC7319 /* StringHTTPHandler.swift in Sources */,
+				FD8A6F93705C4B172C32D52D17B2B5DC /* TCPTransport.swift in Sources */,
+				BECD28904453E5C00C66B51D37CAD433 /* Transport.swift in Sources */,
+				8A472901A6A0E2D7231E376832198241 /* WebSocket.swift in Sources */,
+				07B83A2E6FCF9A05339E6974FC9D3D32 /* WebSocketServer.swift in Sources */,
+				55DAC2E8DC333019B6C1D70EC91B0A22 /* WSCompression.swift in Sources */,
+				85F55FDAED763889D7DADACE5DC5C567 /* WSEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A156CD7C17887FAF96AB3E8E0863847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5452190EBAEE1E56C59A73DBB3B18090 /* Pods-HSS - iPhone-HSS - iPhoneUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9F34F8A41A17D87C5AE733BF737759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE517050E5B8F808EFEFBD33B1DF61A /* Pods-HSS - iPhone-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C19DC18F43C80644FACBC7A3613BBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9867F93702CD2CCB6C0364F2A83F824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C78906EBDD2817A892E193D8377F68 /* Pods-HSS - iPhoneTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02482C5BCC7050A4DC39D14714F2ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDFCF2082C37DDFCEC6805394C8A63A /* GCDWebServer.m in Sources */,
+				30B3EF9513CAABF89A6551C0B539C0C9 /* GCDWebServer-dummy.m in Sources */,
+				3AB1D4CD1F02C6E0A06A4437E6142BA9 /* GCDWebServerConnection.m in Sources */,
+				96EE9CB2007DA2C0B922E55BF12DF494 /* GCDWebServerDataRequest.m in Sources */,
+				6F6B10A85B5214F5CD0CD90352277B70 /* GCDWebServerDataResponse.m in Sources */,
+				7E991AB2EC94565819F8FA947D0D9F40 /* GCDWebServerErrorResponse.m in Sources */,
+				3F392CA18FC6624A4B0F41B8EADAC560 /* GCDWebServerFileRequest.m in Sources */,
+				29A5B34BEA9DBDAE4750CB47F792603B /* GCDWebServerFileResponse.m in Sources */,
+				FAD12E7AA8CADC95A0AA702CFEC81904 /* GCDWebServerFunctions.m in Sources */,
+				A46B4250DBAE3FEC36B8540788AE1615 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				115339A38D460F8F577EF07ADEA1A318 /* GCDWebServerRequest.m in Sources */,
+				5C7CD2D53150DE713900F9DDE53803DF /* GCDWebServerResponse.m in Sources */,
+				E441F73F469E950DAD256C0DA0F1E74A /* GCDWebServerStreamedResponse.m in Sources */,
+				A2741B5FBC4427CCB8ED4C36046A90C1 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F9801F6B78087F0EB663AF2F9E18453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream-Starscream_Privacy";
+			target = 771210E06FA095D070EFB58429312B8F /* Starscream-Starscream_Privacy */;
+			targetProxy = 7F792829564F495C2F27AAD08A95FE5F /* PBXContainerItemProxy */;
+		};
+		452DEB50FE148FE611882D404743488F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 3368D1882F5FF5F04D8C34ECA56F1FC3 /* PBXContainerItemProxy */;
+		};
+		4ABC446DFE366DCEACC8321CE3908C3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCDWebServer;
+			target = AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */;
+			targetProxy = A11693CA9C69C91356E7CD6F78C6F0BD /* PBXContainerItemProxy */;
+		};
+		6076C438B6081CC64CDCA9FA093F605E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCDWebServer;
+			target = AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */;
+			targetProxy = D51BA896C2E84231BE2B8F9BB05AF7C5 /* PBXContainerItemProxy */;
+		};
+		884A092B089EEA3ADE7A935BC43090D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HSS - iPhone";
+			target = A9A364A81B80FD025C483372F0959FF3 /* Pods-HSS - iPhone */;
+			targetProxy = 7A6D59DD596A1130783D69D8CFECE3D2 /* PBXContainerItemProxy */;
+		};
+		BAAC15A09BC9166272A827470A678153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 6F3D5B1470D6CB0EE3316617474AAA6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06FF14852C0C234469C3CEE1E1CE0BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDC081DE01B02321FCAF4FD96E55240 /* Pods-HSS - iPhone.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HSS - iPhone/Pods-HSS - iPhone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSS - iPhone/Pods-HSS - iPhone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		088BAE884385A3AA3E16580A9CC82A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA8992FDBD1C568DDBEF3440DB514602 /* Pods-HSS - iPhone-HSS - iPhoneUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HSS - iPhone-HSS - iPhoneUITests/Pods-HSS - iPhone-HSS - iPhoneUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSS - iPhone-HSS - iPhoneUITests/Pods-HSS - iPhone-HSS - iPhoneUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0941646BFB9EB8752D6BDBF77C86A8B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5431A4AEBFBD7A1C6548B895F61E8D /* Pods-HSS - iPhone-HSS - iPhoneUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HSS - iPhone-HSS - iPhoneUITests/Pods-HSS - iPhone-HSS - iPhoneUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSS - iPhone-HSS - iPhoneUITests/Pods-HSS - iPhone-HSS - iPhoneUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		14D01375232210B6630DD295C8409859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFD2739B86B1DD9BAAAA9EAD52ED04B /* Starscream.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		531AB9B51913EE274022D67EB63CB4E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6DE097C501F168C737577A1665C8E072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3FCB26A5B44D8C3FB12F5AEA9022410 /* GCDWebServer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GCDWebServer/GCDWebServer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GCDWebServer/GCDWebServer.modulemap";
+				PRODUCT_MODULE_NAME = GCDWebServer;
+				PRODUCT_NAME = GCDWebServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78486781C3E229DDC687EDFF248790E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFD2739B86B1DD9BAAAA9EAD52ED04B /* Starscream.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Starscream";
+				IBSC_MODULE = Starscream;
+				INFOPLIST_FILE = "Target Support Files/Starscream/ResourceBundle-Starscream_Privacy-Starscream-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = Starscream_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		790E4ADF0EB5905457D15BD2646DC5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82CBA8531B3576B2BCC02593A3469CD /* GCDWebServer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GCDWebServer/GCDWebServer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GCDWebServer/GCDWebServer.modulemap";
+				PRODUCT_MODULE_NAME = GCDWebServer;
+				PRODUCT_NAME = GCDWebServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8499F5B2D92D7485B51BD3DEBBE87AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB9DA89DBFF7173FBAB517178BD2C36 /* Pods-HSS - iPhone.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HSS - iPhone/Pods-HSS - iPhone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSS - iPhone/Pods-HSS - iPhone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A06A0B8B8C2AC1F57A3C67ACD4FEC0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A3274620A9179009D3BDC8D2F8A1E44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E485B6D0534D3819BDA63C1CA6ACB2BB /* Pods-HSS - iPhoneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HSS - iPhoneTests/Pods-HSS - iPhoneTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSS - iPhoneTests/Pods-HSS - iPhoneTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B342F58912E5586D063AA0F91FF3EE36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A8362E60B9EADEA8728BFC8400966E /* Starscream.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE814D1D2A9E75EA968E8A53E002B2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FA05BF1D8B95403839D89BCCC06D0D /* Pods-HSS - iPhoneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HSS - iPhoneTests/Pods-HSS - iPhoneTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSS - iPhoneTests/Pods-HSS - iPhoneTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6F7943E315175880C77C8497315389E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A8362E60B9EADEA8728BFC8400966E /* Starscream.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Starscream";
+				IBSC_MODULE = Starscream;
+				INFOPLIST_FILE = "Target Support Files/Starscream/ResourceBundle-Starscream_Privacy-Starscream-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = Starscream_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0441860C46AD4C97915B9E07FA1B7A4E /* Build configuration list for PBXNativeTarget "GCDWebServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE097C501F168C737577A1665C8E072 /* Debug */,
+				790E4ADF0EB5905457D15BD2646DC5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06A0B8B8C2AC1F57A3C67ACD4FEC0B3 /* Debug */,
+				531AB9B51913EE274022D67EB63CB4E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78943FCDAF91B27FFF03ABB9E49344B8 /* Build configuration list for PBXNativeTarget "Pods-HSS - iPhone-HSS - iPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0941646BFB9EB8752D6BDBF77C86A8B4 /* Debug */,
+				088BAE884385A3AA3E16580A9CC82A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831EE4C88750DF8F7E2AA6547CC54F6B /* Build configuration list for PBXNativeTarget "Pods-HSS - iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8499F5B2D92D7485B51BD3DEBBE87AA5 /* Debug */,
+				06FF14852C0C234469C3CEE1E1CE0BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6CA009A52423DE07CD5F07D4A79B3AC /* Build configuration list for PBXNativeTarget "Pods-HSS - iPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3274620A9179009D3BDC8D2F8A1E44D /* Debug */,
+				CE814D1D2A9E75EA968E8A53E002B2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E39BC421E0960D9C836023A056C109CA /* Build configuration list for PBXNativeTarget "Starscream-Starscream_Privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78486781C3E229DDC687EDFF248790E6 /* Debug */,
+				E6F7943E315175880C77C8497315389E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6AECD1528B47B8305DD9F79E68D882B /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D01375232210B6630DD295C8409859 /* Debug */,
+				B342F58912E5586D063AA0F91FF3EE36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
