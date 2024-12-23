@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AB853C1A2D18F2B9006D8384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB853C012D18F2B6006D8384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB853C082D18F2B6006D8384;
+			remoteInfo = "HSS - iPhone";
+		};
+		AB853C242D18F2B9006D8384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB853C012D18F2B6006D8384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB853C082D18F2B6006D8384;
+			remoteInfo = "HSS - iPhone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB853C092D18F2B6006D8384 /* HSS - iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HSS - iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB853C192D18F2B9006D8384 /* HSS - iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HSS - iPhoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB853C232D18F2B9006D8384 /* HSS - iPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HSS - iPhoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AB853C382D18FA66006D8384 /* Exceptions for "HSS - iPhone" folder in "HSS - iPhone" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"HSS---iPhone-Info.plist",
+			);
+			target = AB853C082D18F2B6006D8384 /* HSS - iPhone */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AB853C0B2D18F2B6006D8384 /* HSS - iPhone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AB853C382D18FA66006D8384 /* Exceptions for "HSS - iPhone" folder in "HSS - iPhone" target */,
+			);
+			path = "HSS - iPhone";
+			sourceTree = "<group>";
+		};
+		AB853C1C2D18F2B9006D8384 /* HSS - iPhoneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HSS - iPhoneTests";
+			sourceTree = "<group>";
+		};
+		AB853C262D18F2B9006D8384 /* HSS - iPhoneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HSS - iPhoneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB853C062D18F2B6006D8384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB853C162D18F2B9006D8384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB853C202D18F2B9006D8384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB853C002D18F2B6006D8384 = {
+			isa = PBXGroup;
+			children = (
+				AB853C0B2D18F2B6006D8384 /* HSS - iPhone */,
+				AB853C1C2D18F2B9006D8384 /* HSS - iPhoneTests */,
+				AB853C262D18F2B9006D8384 /* HSS - iPhoneUITests */,
+				AB853C0A2D18F2B6006D8384 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB853C0A2D18F2B6006D8384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB853C092D18F2B6006D8384 /* HSS - iPhone.app */,
+				AB853C192D18F2B9006D8384 /* HSS - iPhoneTests.xctest */,
+				AB853C232D18F2B9006D8384 /* HSS - iPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB853C082D18F2B6006D8384 /* HSS - iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB853C2D2D18F2B9006D8384 /* Build configuration list for PBXNativeTarget "HSS - iPhone" */;
+			buildPhases = (
+				AB853C052D18F2B6006D8384 /* Sources */,
+				AB853C062D18F2B6006D8384 /* Frameworks */,
+				AB853C072D18F2B6006D8384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AB853C0B2D18F2B6006D8384 /* HSS - iPhone */,
+			);
+			name = "HSS - iPhone";
+			packageProductDependencies = (
+			);
+			productName = "HSS - iPhone";
+			productReference = AB853C092D18F2B6006D8384 /* HSS - iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB853C182D18F2B9006D8384 /* HSS - iPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB853C302D18F2B9006D8384 /* Build configuration list for PBXNativeTarget "HSS - iPhoneTests" */;
+			buildPhases = (
+				AB853C152D18F2B9006D8384 /* Sources */,
+				AB853C162D18F2B9006D8384 /* Frameworks */,
+				AB853C172D18F2B9006D8384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB853C1B2D18F2B9006D8384 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AB853C1C2D18F2B9006D8384 /* HSS - iPhoneTests */,
+			);
+			name = "HSS - iPhoneTests";
+			packageProductDependencies = (
+			);
+			productName = "HSS - iPhoneTests";
+			productReference = AB853C192D18F2B9006D8384 /* HSS - iPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB853C222D18F2B9006D8384 /* HSS - iPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB853C332D18F2B9006D8384 /* Build configuration list for PBXNativeTarget "HSS - iPhoneUITests" */;
+			buildPhases = (
+				AB853C1F2D18F2B9006D8384 /* Sources */,
+				AB853C202D18F2B9006D8384 /* Frameworks */,
+				AB853C212D18F2B9006D8384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB853C252D18F2B9006D8384 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AB853C262D18F2B9006D8384 /* HSS - iPhoneUITests */,
+			);
+			name = "HSS - iPhoneUITests";
+			packageProductDependencies = (
+			);
+			productName = "HSS - iPhoneUITests";
+			productReference = AB853C232D18F2B9006D8384 /* HSS - iPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB853C012D18F2B6006D8384 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AB853C082D18F2B6006D8384 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AB853C182D18F2B9006D8384 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AB853C082D18F2B6006D8384;
+					};
+					AB853C222D18F2B9006D8384 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AB853C082D18F2B6006D8384;
+					};
+				};
+			};
+			buildConfigurationList = AB853C042D18F2B6006D8384 /* Build configuration list for PBXProject "HSS - iPhone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB853C002D18F2B6006D8384;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AB853C0A2D18F2B6006D8384 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB853C082D18F2B6006D8384 /* HSS - iPhone */,
+				AB853C182D18F2B9006D8384 /* HSS - iPhoneTests */,
+				AB853C222D18F2B9006D8384 /* HSS - iPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB853C072D18F2B6006D8384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB853C172D18F2B9006D8384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB853C212D18F2B9006D8384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB853C052D18F2B6006D8384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB853C152D18F2B9006D8384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB853C1F2D18F2B9006D8384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB853C1B2D18F2B9006D8384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB853C082D18F2B6006D8384 /* HSS - iPhone */;
+			targetProxy = AB853C1A2D18F2B9006D8384 /* PBXContainerItemProxy */;
+		};
+		AB853C252D18F2B9006D8384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB853C082D18F2B6006D8384 /* HSS - iPhone */;
+			targetProxy = AB853C242D18F2B9006D8384 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB853C2B2D18F2B9006D8384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB853C2C2D18F2B9006D8384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB853C2E2D18F2B9006D8384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HSS - iPhone/HSS - iPhone.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HSS - iPhone/Preview Content\"";
+				DEVELOPMENT_TEAM = Y5Q7PMG3MB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HSS---iPhone-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "iPhone needs to get video footage for client";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "iPhone needs to send video footage to client";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan-Huang.HSS---iPhone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB853C2F2D18F2B9006D8384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HSS - iPhone/HSS - iPhone.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HSS - iPhone/Preview Content\"";
+				DEVELOPMENT_TEAM = Y5Q7PMG3MB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HSS---iPhone-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "iPhone needs to get video footage for client";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "iPhone needs to send video footage to client";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan-Huang.HSS---iPhone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB853C312D18F2B9006D8384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5Q7PMG3MB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan-Huang.HSS---iPhoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSS - iPhone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HSS - iPhone";
+			};
+			name = Debug;
+		};
+		AB853C322D18F2B9006D8384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5Q7PMG3MB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan-Huang.HSS---iPhoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSS - iPhone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HSS - iPhone";
+			};
+			name = Release;
+		};
+		AB853C342D18F2B9006D8384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5Q7PMG3MB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan-Huang.HSS---iPhoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HSS - iPhone";
+			};
+			name = Debug;
+		};
+		AB853C352D18F2B9006D8384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5Q7PMG3MB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan-Huang.HSS---iPhoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HSS - iPhone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB853C042D18F2B6006D8384 /* Build configuration list for PBXProject "HSS - iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB853C2B2D18F2B9006D8384 /* Debug */,
+				AB853C2C2D18F2B9006D8384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB853C2D2D18F2B9006D8384 /* Build configuration list for PBXNativeTarget "HSS - iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB853C2E2D18F2B9006D8384 /* Debug */,
+				AB853C2F2D18F2B9006D8384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB853C302D18F2B9006D8384 /* Build configuration list for PBXNativeTarget "HSS - iPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB853C312D18F2B9006D8384 /* Debug */,
+				AB853C322D18F2B9006D8384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB853C332D18F2B9006D8384 /* Build configuration list for PBXNativeTarget "HSS - iPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB853C342D18F2B9006D8384 /* Debug */,
+				AB853C352D18F2B9006D8384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB853C012D18F2B6006D8384 /* Project object */;
+}
